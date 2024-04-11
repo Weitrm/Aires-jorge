@@ -12,8 +12,25 @@ a {
   text-decoration: none;
 }
 
-.bg-azul {
-  background-color: #60c2cd;
+.colornav {
+  background-color: #d8f3f5;
+}
+
+.p-inicio {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .p-inicio {
+    font-size: 2rem;
+  }
+}
+
+.carousel-size {
+  width: 50%;
+  margin-left: 25%;
 }
 
 /*# sourceMappingURL=styles.css.map */

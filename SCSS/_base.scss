@@ -21,3 +21,16 @@ $bg-azulclaro: #d8f3f5;
 $bg-rojo: #ad2828;
 
 $bg-rojoclaro: #ed7c7c;
+
+
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 991px) {
+        @content
+    }
+} 
+
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content
+    }
+}

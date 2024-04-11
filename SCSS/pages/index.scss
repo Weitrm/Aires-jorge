@@ -1,0 +1,15 @@
+.p-inicio {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    @include tablet {
+        font-size: 2rem;
+    }
+}
+
+.carousel-size {
+    width: 50%;
+    margin-left: 25%;
+
+    }
