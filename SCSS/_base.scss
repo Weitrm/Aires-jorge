@@ -1,1 +1,23 @@
-@import "base";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Colores
+
+$bg-azul: #60c2cd;
+
+$bg-azulclaro: #d8f3f5;
+
+$bg-rojo: #ad2828;
+
+$bg-rojoclaro: #ed7c7c;

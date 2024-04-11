@@ -1,3 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-azul {
+  background-color: #60c2cd;
+}
 
 /*# sourceMappingURL=styles.css.map */
