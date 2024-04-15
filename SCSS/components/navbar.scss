@@ -1,8 +1,3 @@
-.navbar {
-    margin-top: 2rem;
-    padding-bottom: 2rem;
-}
-
 .logo-size {
     height: 6rem;
     margin-bottom: 2rem;
@@ -22,14 +17,17 @@
 .list-color {
     color: white;
     font-family: $roboto;
+    font-size: 1rem;
     font-weight: 600;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.288);
     @include tablet {
+        font-size:1.5rem;
         font-family: $roboto;
         font-weight: 600;
         text-shadow: 2.2px 2.2px rgba(0, 0, 0, 0.288);
     }
     @include desktop {
+        font-size: 1.8rem;
         font-family: $roboto;
         font-weight: 600;
         text-shadow: 3px 3px rgba(0, 0, 0, 0.288);
@@ -38,8 +36,8 @@
 
 .styles-h1 {
     color: white;
+    font-size: 2rem;
     margin-right: 4rem;
-    margin-bottom: 1rem;
     font-family: $roboto;
     font-weight: 600;
     font-style: italic;

@@ -12,11 +12,6 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  margin-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .logo-size {
   height: 6rem;
   margin-bottom: 2rem;
@@ -40,11 +35,13 @@ a {
 .list-color {
   color: white;
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
   font-weight: 600;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.288);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .list-color {
+    font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-shadow: 2.2px 2.2px rgba(0, 0, 0, 0.288);
@@ -52,6 +49,7 @@ a {
 }
 @media (min-width: 992px) {
   .list-color {
+    font-size: 1.8rem;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.288);
@@ -60,8 +58,8 @@ a {
 
 .styles-h1 {
   color: white;
+  font-size: 2rem;
   margin-right: 4rem;
-  margin-bottom: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: italic;
@@ -125,6 +123,13 @@ a {
 .bg-indexbody {
   background-image: linear-gradient(180deg, white, #d8f3f5, #80D0C7);
   background-repeat: no-repeat;
+}
+
+.position-preguntas {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
