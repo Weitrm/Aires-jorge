@@ -1,12 +1,10 @@
 .navbar {
     margin-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 3px solid black;
-
 }
 
 .logo-size {
-    height: 8rem;
+    height: 6rem;
     margin-bottom: 2rem;
     width: 10rem;
     margin-right: 4rem;
@@ -22,6 +20,7 @@
 }
 
 .list-color {
+    color: white;
     font-family: $roboto;
     font-weight: 600;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.288);
@@ -38,6 +37,7 @@
 }
 
 .styles-h1 {
+    color: white;
     margin-right: 4rem;
     margin-bottom: 1rem;
     font-family: $roboto;
@@ -45,4 +45,10 @@
     font-style: italic;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.404);
 
+}
+
+.bg-header {
+    background-color: rgb(87, 164, 252);
+    padding-top: 1rem;
+    border-bottom: 3px solid black;
 }

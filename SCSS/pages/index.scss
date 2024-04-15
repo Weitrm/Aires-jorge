@@ -19,7 +19,7 @@
     min-width: 100%;
     min-height: 100%;
     height: 400px;
-    width: 100%;
+    width: 100vh;
     img {
         height: 400px;
     }
@@ -43,8 +43,7 @@
 
 
 .bg-indexbody {
-    background-color: $bg-azulclaro;
-    background-image: linear-gradient(90deg, white ,$bg-azulclaro, #80D0C7);
+    background-image: linear-gradient(180deg, white ,$bg-azulclaro, #80D0C7);
     background-repeat: no-repeat;
 }
 
