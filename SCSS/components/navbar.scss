@@ -1,3 +1,33 @@
-.colornav {
-    background-color: $bg-azulclaro;
+.navbar {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid black;
+
+}
+
+.logo-size {
+    height: 9rem;
+    margin-bottom: 2rem;
+    width: 12rem;
+    margin-right: 4rem;
+    @include tablet {
+        height: 13rem;
+        width: 15rem;
+    }
+    @include desktop {
+        height: 13rem;
+        width: 15rem;
+    }
+}
+
+.list-color {
+    color: rgb(212, 52, 52);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.288);
+}
+
+.styles-h1 {
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+
 }
