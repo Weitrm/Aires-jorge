@@ -23,6 +23,11 @@ $bg-rojo: #ad2828;
 $bg-rojoclaro: #ed7c7c;
 
 
+//FUENTES 
+
+$roboto: "Roboto", sans-serif;
+
+
 @mixin tablet {
     @media (min-width: 768px) and (max-width: 991px) {
         @content
