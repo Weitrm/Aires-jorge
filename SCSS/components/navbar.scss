@@ -36,12 +36,18 @@
 
 .styles-h1 {
     color: white;
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-right: 4rem;
     font-family: $roboto;
     font-weight: 600;
     font-style: italic;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.404);
+    @include tablet {
+        font-size: 2rem;
+    }
+    @include desktop {
+        font-size: 2rem;
+    }
 
 }
 

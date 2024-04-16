@@ -1,0 +1,9 @@
+.button-size {
+    width: 12%;
+    @include tablet {
+        width: 10%;
+    }
+    @include desktop {
+        width: 6%;
+    }
+}
