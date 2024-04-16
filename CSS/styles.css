@@ -88,7 +88,7 @@ button {
 }
 
 .button-size {
-  width: 12%;
+  width: 15%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .button-size {
