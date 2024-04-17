@@ -1,9 +1,28 @@
 .button-size {
     width: 15%;
     @include tablet {
-        width: 10%;
+        width: 6%;
     }
     @include desktop {
         width: 6%;
     }
+}
+
+.stickybtn {
+    width: 20%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    @include tablet {
+        width: 6%;
+    }
+    @include desktop {
+        width: 6%;
+    }
+    &:hover {
+        scale: 1.1;
+        
+    }
+
 }

@@ -92,13 +92,34 @@ button {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .button-size {
-    width: 10%;
+    width: 6%;
   }
 }
 @media (min-width: 992px) {
   .button-size {
     width: 6%;
   }
+}
+
+.stickybtn {
+  width: 20%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .stickybtn {
+    width: 6%;
+  }
+}
+@media (min-width: 992px) {
+  .stickybtn {
+    width: 6%;
+  }
+}
+.stickybtn:hover {
+  scale: 1.1;
 }
 
 .p-inicio {
@@ -148,7 +169,7 @@ button {
 }
 
 .carousel-size {
-  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
 .bg-indexbody {
