@@ -1,0 +1,19 @@
+.card-section {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    div {
+    min-width: 50%;
+    text-align: center;
+    @include desktop {
+        max-width: 100%;
+        width: 20%
+    }
+    }
+    @include desktop {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr;
+        
+    }
+}

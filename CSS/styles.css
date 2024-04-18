@@ -172,6 +172,10 @@ button {
   margin: 2rem 0 2rem 0;
 }
 
+.carousel-inner .carousel-item {
+  transition: opacity 1s ease;
+}
+
 .bg-indexbody {
   background-image: linear-gradient(180deg, white, #d8f3f5, #a7d6d1);
   background-repeat: no-repeat;
@@ -220,6 +224,29 @@ button {
   .fs-mapa {
     font-size: 1.5rem;
     font-weight: 500;
+  }
+}
+
+.card-section {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+.card-section div {
+  min-width: 50%;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .card-section div {
+    max-width: 100%;
+    width: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .card-section {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
   }
 }
 
