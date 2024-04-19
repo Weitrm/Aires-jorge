@@ -52,7 +52,8 @@
 }
 
 .bg-header {
-    background-color: rgb(87, 164, 252);
+    background-image: url(../img/navimg.jpg);
+    background-size: cover;
     padding-top: 1rem;
     border-bottom: 3px solid black;
 }

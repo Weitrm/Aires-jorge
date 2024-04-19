@@ -82,7 +82,8 @@ button {
 }
 
 .bg-header {
-  background-color: rgb(87, 164, 252);
+  background-image: url(../img/navimg.jpg);
+  background-size: cover;
   padding-top: 1rem;
   border-bottom: 3px solid black;
 }
@@ -124,7 +125,7 @@ button {
 
 .p-inicio {
   font-size: 1rem;
-  margin: 6rem 0 5rem 0;
+  margin: 2rem 0 1rem 0;
   text-align: center;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -231,22 +232,20 @@ button {
   display: flex;
   overflow-x: auto;
   gap: 1rem;
+  flex: 0 0 auto;
 }
 .card-section div {
   min-width: 50%;
   text-align: center;
 }
 @media (min-width: 992px) {
-  .card-section div {
-    max-width: 100%;
-    width: 20%;
-  }
-}
-@media (min-width: 992px) {
   .card-section {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+    max-width: 100%;
+    min-width: 50%;
   }
 }
 
