@@ -235,7 +235,7 @@ button {
   flex: 0 0 auto;
 }
 .card-section div {
-  min-width: 50%;
+  min-width: 75%;
   text-align: center;
 }
 @media (min-width: 992px) {
@@ -247,6 +247,14 @@ button {
     max-width: 100%;
     min-width: 50%;
   }
+}
+
+.metodos-pago {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.metodos-pago img {
+  width: 15%;
 }
 
 /*# sourceMappingURL=styles.css.map */

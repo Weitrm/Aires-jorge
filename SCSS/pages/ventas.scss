@@ -4,7 +4,7 @@
     gap: 1rem;
     flex: 0 0 auto;
     div {
-    min-width: 50%;
+    min-width: 75%;
     text-align: center;
     }
     @include desktop {
@@ -15,5 +15,13 @@
         max-width: 100%;
         min-width: 50%;
         
+    }
+}
+
+.metodos-pago {
+    width: 100%;
+    flex-wrap: wrap;
+    img {
+    width: 15%;
     }
 }
