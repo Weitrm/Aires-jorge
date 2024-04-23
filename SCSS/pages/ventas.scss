@@ -20,8 +20,7 @@
 
 .metodos-pago {
     width: 100%;
-    flex-wrap: wrap;
-    img {
-    width: 15%;
+    @include desktop {
+        width: 50%;
     }
 }
