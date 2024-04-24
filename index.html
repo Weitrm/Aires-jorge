@@ -17,7 +17,7 @@
 </head>
 
 <body class="bg-indexbody">
-  <div class="bg-header pb-3">
+  <div class="bg-header pb-5">
   <header>
     <nav class="container navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -37,14 +37,14 @@
               <a class="nav-link list-color" href="./pages/ventas.html">Ventas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link list-color" href="./pages/trabajos.html">Trabajos</a>
+              <a class="nav-link list-color" href="./pages/servicio.html">Servicio</a>
             </li>
           </ul>
         </div>
       </div>
 
       <h3 class="text-white text-center mt-5 fw-bold">La temperatura perfecta, en cada momento y lugar.</h3>
-      <h3 class="fs-6 text-center text-white mb-5">Tu mejor opción en <span class="text-primary fw-bold">instalación, venta, reparación y mantenimiento</span> de equipos de aire acondicionado. ¡Contáctanos ahora!</h3>
+      <h3 class="fs-6 text-center text-white mb-5">Tu mejor opción en <span class="fw-bold">instalación, venta, reparación y mantenimiento</span> de equipos de aire acondicionado. ¡Contáctanos ahora!</h3>
       <a class="marginbutton" href="https://api.whatsapp.com/send/?phone=59893365696" target="_blank">
         <button class="button">
           Contactanos
@@ -64,9 +64,9 @@
     </nav>
   </div>
   </header>
-  <main>
+  <main class="container">
       <!--CAROUSEL PRINCIPAL-->
-      <div id="carouselExampleInterval" class="carousel slide carousel-size" data-bs-ride="carousel">
+      <div id="carouselExampleInterval" class="carousel slide carousel-size mt-2" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="./img/img-sillon.jpeg" class="d-block w-100" alt="...">
@@ -95,8 +95,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <div>
-      <h3 class="text-center text-primary fw-bold">¿Quienes somos?</h3>
+    <div class="bg-primary-subtle p-2 mb-3 rounded">
+      <h3 class="text-center fw-bold">¿Quienes somos?</h3>
       <p class="p-inicio">Somos una empresa familiar especializada en la <strong><span
             class="text-primary fw-bold">instalación, reparación, traslado y venta de aire
             acondicionado.</span></strong> En <span class="text-primary fw-bold">JS</span> Aires Pando, te ofrecemos
@@ -109,7 +109,7 @@
     <section class="row mb-5 d-flex">
       <article class="col-12 col-md-5">
         <div class="position-preguntas">
-          <h2 class="text-primary fs-1">Preguntas <span class="text-danger">frecuentes</span></h2>
+          <h2 class="text-primary fs-1">Preguntas frecuentes</h2>
           <!--ACORDEON CON LAS PREGUNTAS-->
           <div class="accordion" id="accordionExample">
             <!--ACORDEON 1-->
@@ -127,24 +127,6 @@
                   habitación, la cantidad de personas que la ocupan y la temperatura exterior. Los aires acondicionados
                   tipo split suelen ser ideales para espacios pequeños, mientras que los sistemas centrales son más
                   adecuados para áreas más grandes.
-                </div>
-              </div>
-            </div>
-            <!--ACORDEON 2-->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button bg-dark text-white collapsed size-p-info fw-bold" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                  aria-controls="collapseTwo">
-                  ¿Cuánto cuesta instalar un aire acondicionado?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body size-p-info">
-                  El costo de la instalación de un aire acondicionado puede variar según varios factores, como el tipo
-                  de sistema, la complejidad de la instalación y la ubicación. En general, la instalación de un sistema
-                  split puede costar entre X y Y, mientras que la instalación de un sistema central puede ser más
-                  costosa, con un rango de precio entre A y B.
                 </div>
               </div>
             </div>
@@ -168,7 +150,7 @@
             <!--ACORDEON 4-->
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed size-p-info bg-primary-subtle fw-bold
+                <button class="accordion-button collapsed size-p-info bg-dark text-white fw-bold
                   " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
                   aria-controls="collapseFour">
                   ¿Cómo puedo mantener mi aire acondicionado en buen estado?
@@ -186,7 +168,7 @@
             <!--ACORDEON 5-->
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed size-p-info bg-dark text-white fw-bold" type="button"
+                <button class="accordion-button collapsed size-p-info bg-primary-subtle fw-bold" type="button"
                   data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
                   aria-controls="collapseFive">
                   ¿Cuál es la diferencia entre un aire acondicionado inverter y un on/off?
@@ -223,7 +205,7 @@
         </div>
       </article>
       <!--ASIDE INFORMACION ADICIONAL-->
-      <div class="mt-5 rounded pb-1 bg-white">
+      <div class="mt-2 rounded p-2 bg-primary-subtle">
         <h3 class="text-center fs-4">¿ <span class="text-primary fw-bold">De donde somos</span>?</h3>
         <iframe class="map-size"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26234.60665639907!2d-55.98730880330218!3d-34.72218046634486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a026992ab9fdaf%3A0xc45baec8811ddb27!2sPando%2C%20Departamento%20de%20Canelones!5e0!3m2!1ses!2suy!4v1713232670915!5m2!1ses!2suy"
