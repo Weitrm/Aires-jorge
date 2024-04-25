@@ -304,15 +304,16 @@ button {
   }
 }
 
-.bg-ventas {
-  background-color: rgb(243, 233, 233);
-}
-
 .card-section {
   display: flex;
   overflow-x: auto;
   gap: 1rem;
   flex: 0 0 auto;
+}
+@media (min-width: 992px) {
+  .card-section {
+    width: 50%;
+  }
 }
 .card-section div {
   min-width: 50%;

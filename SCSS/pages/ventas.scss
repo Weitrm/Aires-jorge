@@ -1,12 +1,13 @@
-.bg-ventas {
-    background-color: rgb(243, 233, 233);
-  }
+
 
 .card-section {
     display: flex;
     overflow-x: auto;
     gap: 1rem;
     flex: 0 0 auto;
+    @include desktop {
+        width: 50%;
+    }
     div {
     min-width: 50%;
     text-align: center;
