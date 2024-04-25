@@ -1,14 +1,15 @@
-.bg-trabajos {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 1rem;
-    --color: #E1E1E1;
-    background-color: #F3F3F3;
-    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
-        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
-    background-size: 55px 55px;
+.bg-servicio {
+    background-color: rgb(245, 245, 245);
   }
 
+.section-galeria {
+    @include desktop {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+    }
+}
 
 .gallery {
     display: flex;
@@ -18,11 +19,14 @@
     }
 }
 
-.card {
+.card-servicio {
     margin: 10px;
     padding: 1rem;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.452);
-    background-color: rgb(195, 228, 255);
+    background-color: rgb(250, 250, 250);
     text-align: center;
+    @include desktop {
+        width: 100%;
+    }
 
 }

@@ -17,6 +17,10 @@ button {
   border: none;
 }
 
+.color3 {
+  background-color: #1a5365;
+}
+
 .logo-size {
   height: 6rem;
   margin-bottom: 2rem;
@@ -301,13 +305,7 @@ button {
 }
 
 .bg-ventas {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 1rem;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px;
+  background-color: rgb(243, 233, 233);
 }
 
 .card-section {
@@ -317,7 +315,7 @@ button {
   flex: 0 0 auto;
 }
 .card-section div {
-  min-width: 75%;
+  min-width: 50%;
   text-align: center;
 }
 @media (min-width: 992px) {
@@ -327,8 +325,12 @@ button {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
     max-width: 100%;
-    min-width: 50%;
+    min-width: 25%;
   }
+}
+
+.card-ventas {
+  background-color: white;
 }
 
 .metodos-pago {
@@ -340,14 +342,16 @@ button {
   }
 }
 
-.bg-trabajos {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 1rem;
-  --color: #E1E1E1;
-  background-color: #F3F3F3;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
-  background-size: 55px 55px;
+.bg-servicio {
+  background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 992px) {
+  .section-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
 
 .gallery {
@@ -358,12 +362,17 @@ button {
   width: 50%;
 }
 
-.card {
+.card-servicio {
   margin: 10px;
   padding: 1rem;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.452);
-  background-color: rgb(195, 228, 255);
+  background-color: rgb(250, 250, 250);
   text-align: center;
+}
+@media (min-width: 992px) {
+  .card-servicio {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
