@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   background: none;
   border: none;
@@ -65,14 +69,9 @@ button {
   }
 }
 
-.navbar-collapse {
-  flex-grow: 0;
-}
-
 .styles-h1 {
   font-size: 1.4rem;
   text-align: center;
-  margin-right: 4rem;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-style: italic;
@@ -316,7 +315,7 @@ button {
   }
 }
 .card-section div {
-  min-width: 50%;
+  min-width: 60%;
   text-align: center;
 }
 @media (min-width: 992px) {
@@ -341,10 +340,6 @@ button {
   .metodos-pago {
     width: 50%;
   }
-}
-
-.bg-servicio {
-  background-color: rgb(245, 245, 245);
 }
 
 @media (min-width: 992px) {
