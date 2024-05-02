@@ -15,6 +15,9 @@
 
 .list-color {
     color: white;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    padding: 5px;
     font-family: $roboto;
     font-size: 1.6rem;
     font-weight: 600;
@@ -71,7 +74,7 @@
     padding-block: 0.5rem;
     padding-inline: 1.25rem;
     background-color: rgb(0 107 179);
-    border-radius: 9999px;
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
