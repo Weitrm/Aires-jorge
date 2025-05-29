@@ -26,6 +26,22 @@
                         alt="Logo"></a>
                 <h2 class="styles-h1 text-white roboto">JS Aires Pando</h2>
             </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="container d-flex justify-content-around">
+                    <li>
+                        <a href="../index.html"><button class="button">Inicio</button></a>
+                    </li>
+                    <li>
+                        <a href="./electricidad.html"><button class="button">Electricidad</button></a>
+                    </li>
+                    <li>
+                        <a href="./servicio.html"><button class="button">Servicio</button></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <h2 class="text-center mt-4 mb-3 fw-bold roboto text-white">Proyectos de Aire
@@ -62,17 +78,6 @@
             <img src="../img/logos/handy.png" class="w-25 rounded mb-2" alt="Logo de Handy pos">
             <h4 class="text-white fs-6 roboto mb-3">Contamos con Handy(pos) para facilitar tus pagos</h4>
         </div>
-        <ul class="container d-flex justify-content-around">
-            <li>
-                <a href="../index.html"><button class="button">Inicio</button></a>
-            </li>
-            <li>
-                <a href="./ventas.html"><button class="button">Ventas</button></a>
-            </li>
-            <li>
-                <a href="./servicio.html"><button class="button">Servicio</button></a>
-            </li>
-        </ul>
         </div>
     </header>
     <main class="container">
@@ -85,7 +90,7 @@
             <img src="../img/trabajos/instalacionbasica.png" class="col-md-6" alt="Instalación basica">
             <div class="accordion col-md-6" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header mt-1">
                         <button class="accordion-button bg-dark-subtle fw-bold size-p-info roboto" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
                             aria-controls="collapseThree">
@@ -106,15 +111,31 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <p class="text-center text-primary bg-dark-subtle p-2 fs-6 fw-bold roboto">Todas las instalaciones
-                    incluyen garantía</p>
+            <div class="accordion col-md-6" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header mt-1">
+                        <button class="accordion-button bg-dark-subtle text-danger fw-bold size-p-info roboto" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true"
+                            aria-controls="collapseSix">
+                            ¿Cuánto cuesta la desinstalación de un equipo?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body size-p-info roboto">
+                            El costo de la desinstalación de un aire acondicionado puede variar según el tamaño del
+                            equipo. <br> <span class="text-danger fw-bold"> 9000BTU  y 12000BTU= $1500 <br>
+                                18000BTU y 24000BTU = $2500. <br>
+                                Por equipos mas grandes consultar a el número de la web </span>
+                                
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="text-center mb-3 fs-6 roboto">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button bg-primary-subtle fw-bold size-p-info" type="button"
+                            <button class="accordion-button text-warning bg-dark fw-bold size-p-info" type="button"
                                 data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
                                 aria-controls="collapseFour">
                                 Las Instalaciones Eléctricas son Presupuesto Aparte
