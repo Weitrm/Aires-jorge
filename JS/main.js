@@ -50,3 +50,23 @@ const elements = document.querySelectorAll('.fade-in');
 
 window.addEventListener('scroll', showOnScroll);
 window.addEventListener('load', showOnScroll);
+
+// Mostrar calculadora de BTU al hacer clic en el botón
+  const btnMostrar = document.getElementById("btnMostrarCalculadora");
+  const btnCerrar = document.getElementById("btnCerrarCalculadora");
+  const calculadora = document.getElementById("calculadora");
+  const btnMostrarContainer = document.getElementById("btnMostrarContainer");
+
+  btnMostrar.addEventListener("click", () => {
+    calculadora.classList.add("visible");
+    btnMostrarContainer.classList.add("d-none");
+    calculadora.scrollIntoView({ behavior: "smooth" });
+  });
+
+  btnCerrar.addEventListener("click", () => {
+    calculadora.classList.remove("visible");
+    setTimeout(() => {
+      btnMostrarContainer.classList.remove("d-none");
+      btnMostrarContainer.scrollIntoView({ behavior: "smooth" });
+    }, 600); 
+  });
